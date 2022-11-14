@@ -10,14 +10,41 @@
     font-style: normal;
     text-transform: uppercase;*/
 
-
-
 /*CSS HEADER*/
 
+.H_menu-Header {
+    height: 60px;
+    background: #00789d;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
 
+.H_logo {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+  padding-left: 5px;
+  color: #d0b7a0;
+}
 
+.H_item {
 
+  width: 182px;
+  height: 19px;
+  left: 35px;
+  top: 90px;
 
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+
+  color: black;
+}
 
 
 
@@ -113,3 +140,25 @@ img{
 
 
 /*CSS FOOTER*/
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #00789D;
+    color: #D0B7A0;
+    align-items: center;
+}
+
+.fflex2{
+    display: flex;
+    flex-direction: row;
+}
+
+.fp{
+    margin: 5px;
+}
+
+.fwrap{
+    flex-wrap: wrap;
+    margin: 10px;
+}
