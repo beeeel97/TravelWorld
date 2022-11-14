@@ -28,3 +28,25 @@
 
 
 /*CSS FOOTER*/
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #00789D;
+    color: #D0B7A0;
+    align-items: center;
+}
+
+.fflex2{
+    display: flex;
+    flex-direction: row;
+}
+
+.fp{
+    margin: 5px;
+}
+
+.fwrap{
+    flex-wrap: wrap;
+    margin: 10px;
+}
