@@ -1,0 +1,7 @@
+/*POR DEFECTO LOS TITULOS USAN TODOS*/
+body{
+    font-family: 'Inter';
+    font-style: normal;
+    text-transform: uppercase;
+    color: #D0B7A0;
+}
