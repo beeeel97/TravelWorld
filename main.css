@@ -10,21 +10,42 @@
     font-style: normal;
     text-transform: uppercase;*/
 
-
-
 /*CSS HEADER*/
 
+.H_menu-Header {
+    height: 60px;
+    background: #00789d;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
 
+.H_logo {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+  padding-left: 5px;
+  color: #d0b7a0;
+}
 
+.H_item {
+  position: absolute;
+  width: 182px;
+  height: 19px;
+  left: 35px;
+  top: 90px;
 
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
 
+  color: black;
+}
 
 /*CSS BODY*/
-
-
-
-
-
-
 
 /*CSS FOOTER*/
