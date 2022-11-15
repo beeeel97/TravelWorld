@@ -81,6 +81,7 @@ justify-content: center;
 
     margin: 20px;
     height: 200px;
+    width: 200px;
  
 
 }
@@ -123,8 +124,16 @@ img{
     .m_titleImg{
        visibility: visible;
         color: #00789D;
-        text-align: center;
-        margin: 9px;
+        /* text-align: center;
+        margin: 9px; */
+     display: flex;
+        
+    justify-content: center;
+    align-items: center;
+    margin:0px;
+ 
+    
+
 
        }
 
