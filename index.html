@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TravelWorld</title>
     <link rel="stylesheet" href="./main.css">
-
+    
     <!--Link para la tipografia-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,20 +19,19 @@
     <!--HEADER-->
     <header class="H_header">
         <section class="H_menu-Header">
-            <div class="H_logo">
-               TRAVELWORLD
-                <img class="H_img"  src="./images/CarritoCompraNaranja.png"/>
-            
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#" class="H_itemText"><img class="H_item" src="./images/IconoViajes.png">PRINCIPALES DESTINOS</a>
+                <a href="#" class="H_itemText"><img class="H_item" src="./images/IconoTours.png">TOURS</a>
+                <a href="#" class="H_itemText"><img class="H_item" src="./images/IconoActividades.png">ACTIVIDADES</a>
+                <a href="#" class="H_itemText"><img class="H_item" src="./images/IconoPerfil.png">PERFIL</a>
+                <a href="#" class="H_itemText"><img class="H_item" src="./images/CarritoCompra.png">CARRITO</a>
             </div>
-            <nav>
-                <ul class="H_nav">
-                    <li class="H_item"> <img src="./images/IconoViajes.png"/>PRINCIPALES DESTINOS</li>
-                    <li class="H_item"><img src="./images/IconoTours.png"/>TOURS</li>
-                    <li class="H_item"><img src="./images/IconoActividades.png"/>ACTIVIDADES</li>
-                    <li class="H_item"><img src="./images/iconoPerfil.png"/>PERFIL</li>
-                    <li class="H_item"><img src="./images/CarritoCompra.png"/>CARRITO</li>
-                </ul>
-            </nav>
+              <span style="font-size:30px;cursor:pointer;color: #D0B7A0;;" onclick="openNav()">&#9776;</span>
+              <div class="H_logo">
+                TRAVELWORLD
+                <img class="H_img"  src="./images/CarritoCompraNaranja.png"/>
+            </div>
         </section>
     </header>
     <!--CUERPO-->
@@ -123,7 +122,8 @@
                 <div><a href=""><img src="images/TiktokLogo.png" alt=""></a></div>
             </div>
             <p class="fwrap">Copyright © 2022 Alejandro Barba - Belén Cao - Maribel López</p>     
-    </footer>
+    </footer>.
+    <script type="text/JavaScript" src="main.js"></script>
 </body>
 
 </html>
