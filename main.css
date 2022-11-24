@@ -12,106 +12,202 @@
 
 /*CSS HEADER*/
 
+*{
+    padding: 0;
+    margin: 0;
+}
+
 .H_menu-Header {
+    position: fixed;
     height: 60px;
+    width: 100%;
+    margin-left: 0px;
     background: #00789d;
     display: flex;
-    flex-direction: row-reverse;
+    justify-content: space-around;
     align-items: center;
 }
 
 .H_logo {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 25px;
-  padding-left: 5px;
-  color: #d0b7a0;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    padding-left: 5px;
+    color: #d0b7a0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.H_img {
+    margin-left: 10px;
+    color: #d0b7a0;
+    width: 50px;
+    height: 50px;
+
+}
+
+.h_imgHidden {
+    visibility: hidden;
 }
 
 .H_item {
-
-  width: 182px;
-  height: 19px;
-  left: 35px;
-  top: 90px;
-
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 14px;
-  line-height: 17px;
-  text-transform: uppercase;
-
-  color: black;
+    width: 25px;
+    height: 25px;
+    left: 35px;
+    top: 90px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: white;
+    margin-right: 10px;
 }
+
+.H_itemText {
+    color: white;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+
+}
+/* menu */
+
+.hidden{
+    visibility: hidden;
+}
+
+.sidenav {
+
+    height: auto;
+    padding: 20px 20px 15px 15px;
+    width: 100% !important;
+    position: fixed;
+    z-index: 1;
+    top: 60px;
+ 
+    background-color: rgba(0, 120, 157, 0.62);
+    overflow-x: hidden;
+    transition: 0.5s;
+ 
+}
+
+.sidenav a {
+    width: auto;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+  
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/*todo lo anterior es para movil, y lo de dentro de la media es para tablet*/
+
+@media screen and (min-width: 728px) {
+
+    .h_imgHidden {
+        visibility: visible;
+    }
+
+
+}
+
+@media screen and (max-width: 348px) {
+
+    .H_iconos {
+        margin-bottom: 60px;
+    }
+}
+
+
+
+
 
 
 
 /*CSS BODY*/
 
-body{
+body {
 
     font-family: 'Inter';
     font-style: normal;
 }
 
-.m_title{
+.m_title {
 
     color: #977C52;
 
 }
 
 
-.m_section{
+.m_section {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 50px;
 }
 
-.m_containerImg{
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: center;
+.m_containerImg {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.m_img{
+.m_img {
 
     margin: 20px;
     height: 200px;
- 
+    width: 200px;
+
 
 }
 
 
-img{
-
+img {
     width: 150px;
-    height:150px;
-    border-radius:75px;
-   font-weight: 500;
+    height: 150px;
+    border-radius: 75px;
+    font-weight: 500;
 
 
 
 }
 
-.m_button{
+.m_button {
     color: white;
     background-color: #00789D;
     border-radius: 65px;
-    padding:10px;
+    padding: 10px;
     height: 38px;
     width: 100px;
-    border:0px;
+    border: 0px;
 }
 
 
-.m_titleImg{
+.m_titleImg {
     visibility: hidden;
-   }
+}
 
+<<<<<<< HEAD
    /*CSS FOOTER*/
 
 .footer{
@@ -152,21 +248,29 @@ img{
 
 
    @media  only  screen and (min-width: 728px) {
+=======
+@media only screen and (min-width: 728px) {
+>>>>>>> d650d49d83488e3eb6f8c1fe4edbeaa64e81fb2e
 
-    .m_img{
+    .m_img {
         background-color: rgba(208, 183, 160, 0.7);
-        border-radius:35px;
-        }
-        
-    
-    .m_titleImg{
-       visibility: visible;
+        border-radius: 35px;
+        height: 210px
+    }
+
+
+    .m_titleImg {
+        visibility: visible;
         color: #00789D;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 4px;
+    
         text-align: center;
-        margin: 9px;
 
-       }
 
+<<<<<<< HEAD
        img{
         width: 200px;
         height:150px;
@@ -183,3 +287,43 @@ img{
 
 
 
+=======
+
+
+    }
+
+    img {
+        width: 200px;
+        height: 150px;
+        border-radius: 35px 35px 0px 0px;
+
+    }
+
+}
+
+
+
+/*CSS FOOTER*/
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #00789D;
+    color: #D0B7A0;
+    align-items: center;
+}
+
+.fflex2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.fp {
+    margin: 5px;
+}
+
+.fwrap {
+    flex-wrap: wrap;
+    margin: 10px;
+}
+>>>>>>> d650d49d83488e3eb6f8c1fe4edbeaa64e81fb2e
