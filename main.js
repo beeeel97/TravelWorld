@@ -19,3 +19,14 @@ function CloseNav(){
 
 botonCerrar.addEventListener("click", CloseNav);
 
+
+const botonAbrir = document.querySelector('.openbtn')
+
+function OpenNav(){
+  menu.classList.toggle("hidden");
+}
+
+
+botonAbrir.addEventListener("click", OpenNav);
+
+
