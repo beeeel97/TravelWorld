@@ -4,19 +4,19 @@
     COLOR AZUL #00789D
     COLOR DE LAS CARD rgba(208, 183, 160, 0.7);
     COLOR FONDO BODY #FFFFFF*/
-
+ 
 /*TIPOGRAFIA TODOS LOS TEXTOS, SOLO VARIA EL TAMAÑO
     font-family: 'Inter';
     font-style: normal;
     text-transform: uppercase;*/
-
+ 
 /*CSS HEADER*/
-
+ 
 *{
     padding: 0;
     margin: 0;
 }
-
+ 
 .H_menu-Header {
     position: fixed;
     height: 60px;
@@ -27,7 +27,7 @@
     justify-content: space-around;
     align-items: center;
 }
-
+ 
 .H_logo {
     font-family: "Inter";
     font-style: normal;
@@ -39,19 +39,19 @@
     align-items: center;
     justify-content: flex-end;
 }
-
+ 
 .H_img {
     margin-left: 10px;
     color: #d0b7a0;
     width: 50px;
     height: 50px;
-
+ 
 }
-
+ 
 .h_imgHidden {
     visibility: hidden;
 }
-
+ 
 .H_item {
     width: 25px;
     height: 25px;
@@ -66,23 +66,23 @@
     color: white;
     margin-right: 10px;
 }
-
+ 
 .H_itemText {
     color: white;
     font-family: "Inter";
     font-style: normal;
     font-weight: 900;
     font-size: 15px;
-
+ 
 }
 /* menu */
-
+ 
 .hidden{
     visibility: hidden;
 }
-
+ 
 .sidenav {
-
+ 
     height: auto;
     padding: 20px 20px 15px 15px;
     width: 100% !important;
@@ -95,7 +95,7 @@
     transition: 0.5s;
  
 }
-
+ 
 .sidenav a {
     width: auto;
     padding: 8px 8px 8px 32px;
@@ -105,12 +105,12 @@
     display: block;
     transition: 0.3s;
 }
-
+ 
 .sidenav a:hover {
-  
+ 
     color: #f1f1f1;
 }
-
+ 
 .sidenav .closebtn {
     position: absolute;
     top: 0;
@@ -118,80 +118,79 @@
     font-size: 36px;
     margin-left: 50px;
 }
-
+ 
 /*todo lo anterior es para movil, y lo de dentro de la media es para tablet*/
-
+ 
 @media screen and (min-width: 728px) {
-
+ 
     .h_imgHidden {
         visibility: visible;
     }
-
-
+ 
+ 
 }
-
+ 
 @media screen and (max-width: 348px) {
-
+ 
     .H_iconos {
         margin-bottom: 60px;
     }
 }
-
-
-
-
-
-
-
+ 
+ 
+ 
 /*CSS BODY*/
-
+ 
 body {
-
+ 
     font-family: 'Inter';
     font-style: normal;
 }
-
+ 
 .m_title {
-
+ 
     color: #977C52;
-
+ 
 }
-
-
+ 
+ 
 .m_section {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 50px;
 }
-
+ 
 .m_containerImg {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 }
-
+ 
 .m_img {
-
+ 
     margin: 20px;
     height: 200px;
     width: 200px;
+    padding-top: 20px;
+    padding-left: 20px;
 
-
+ 
+ 
 }
-
-
+ 
+ 
 img {
     width: 150px;
     height: 150px;
     border-radius: 75px;
     font-weight: 500;
-
-
-
+ 
+ 
+ 
 }
-
+ 
 .m_button {
     color: white;
     background-color: #00789D;
@@ -201,13 +200,45 @@ img {
     width: 100px;
     border: 0px;
 }
-
-
+ 
+ 
 .m_titleImg {
     visibility: hidden;
 }
+ 
+@media only screen and (min-width: 728px) {
+ 
+    .m_img {
+        background-color: rgba(208, 183, 160, 0.7);
+        border-radius: 35px;
+        height: 210px;
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+ 
+ 
+    .m_titleImg {
+        visibility: visible;
+        color: #00789D;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 4px;
+   
+        text-align: center;
+ 
+    }
+ 
+    img {
+        width: 200px;
+        height: 150px;
+        border-radius: 35px 35px 0px 0px;
+ 
+    }
+ 
+}
+ 
 
-<<<<<<< HEAD
    /*CSS FOOTER*/
 
 .footer{
@@ -245,85 +276,9 @@ img {
     text-align: center;
 }
 
-
-
-   @media  only  screen and (min-width: 728px) {
-=======
-@media only screen and (min-width: 728px) {
->>>>>>> d650d49d83488e3eb6f8c1fe4edbeaa64e81fb2e
-
-    .m_img {
-        background-color: rgba(208, 183, 160, 0.7);
-        border-radius: 35px;
-        height: 210px
-    }
-
-
-    .m_titleImg {
-        visibility: visible;
-        color: #00789D;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 4px;
-    
-        text-align: center;
-
-
-<<<<<<< HEAD
-       img{
-        width: 200px;
-        height:150px;
-        border-radius: 35px 35px 0px 0px; 
-        
-
-    }
-    
+@media screen and (min-width: 728px){
     .fflex3{
         display: flex;
         flex-direction: row;
     }
-   }
-
-
-
-=======
-
-
-    }
-
-    img {
-        width: 200px;
-        height: 150px;
-        border-radius: 35px 35px 0px 0px;
-
-    }
-
 }
-
-
-
-/*CSS FOOTER*/
-
-.footer {
-    display: flex;
-    flex-direction: column;
-    background-color: #00789D;
-    color: #D0B7A0;
-    align-items: center;
-}
-
-.fflex2 {
-    display: flex;
-    flex-direction: row;
-}
-
-.fp {
-    margin: 5px;
-}
-
-.fwrap {
-    flex-wrap: wrap;
-    margin: 10px;
-}
->>>>>>> d650d49d83488e3eb6f8c1fe4edbeaa64e81fb2e
