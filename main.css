@@ -67,15 +67,20 @@ body {
 }
 
 .input{
-    background-color: #D0B7A0;
+    background-color: white;
     border-radius: 25px;
-    border: none;
+    border: 0px;
     width: 40%;
-    height: 25px;
+    height: 30px;
 
     position: relative;
+
+    bottom: 80px;
+    left: 30%;
   
- z-index: 2000;
+ z-index: 1;
+ padding-left: 10px;
+ font-family: "FontAwesome";
 
 }
  
@@ -83,6 +88,8 @@ body {
     visibility: hidden;
 }
  
+
+
 .H_item {
     width: auto;
     height: 25px;
@@ -148,11 +155,53 @@ body {
     .h_imgHidden {
         visibility: visible;
     }
+
+ 
+.input{
+    background-color: white;
+    border-radius: 25px;
+    border: 0px;
+    width: 40%;
+    height: 40px;
+
+    position: relative;
+
+    bottom: 120px;
+    left: 30%;
+  
+ z-index: 1;
+ padding-left: 10px;
+
+}
+
+ 
+ 
+}
+
+@media screen and (min-width: 1140px) {
+ 
+    .h_imgHidden {
+        visibility: visible;
+    }
+
+ 
+.input{
+
+    border-radius: 30px;
+
+    height: 60px;
+
+}
+
+.h_p{
+    margin-right: 500px;
+}
+
  
  
 }
  
-@media screen and (max-width: 348px) {
+@media screen and (max-width: 342px) {
  
     .H_iconos {
         margin-bottom: 60px;
@@ -242,7 +291,7 @@ align-items: center;
  
     .m_img {
         background-color: rgba(208, 183, 160, 0.7);
-        border-radius: 25px;
+        border-radius: 35px;
         height: 210px;
         padding-top: 0px;
         padding-left: 0px;
