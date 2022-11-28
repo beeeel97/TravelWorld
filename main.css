@@ -244,6 +244,8 @@ align-items: center;
         background-color: rgba(208, 183, 160, 0.7);
         border-radius: 25px;
         height: 210px;
+        padding-top: 0px;
+        padding-left: 0px;
     }
  
  
