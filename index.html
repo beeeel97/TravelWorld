@@ -18,7 +18,7 @@
 <body>
     <!--HEADER-->
     <header class="H_header">
-        <section class="H_menu-Header">
+        <nav class="H_menu-Header">
             <div id="mySidenav" class="sidenav hidden">
                 <a class="closebtn">&times;</a>
                 <a href="#" class="H_itemText"><img class="H_item" src="./images/IconoViajes.png">PRINCIPALES DESTINOS</a>
@@ -35,14 +35,19 @@
                 
                <p class= "h_p">TRAVELWORLD</p> 
                 <div class = "H_iconos">
-                   <img class="H_img h_imgHidden"  src="./images/CarritoCompraNaranja.png"/>        <!--  cambiar lupa-->
-                    <img class="H_img h_img"  src="./images/CarritoCompraNaranja.png"/>
+                   <img class="H_img h_imgHidden"  src="./images/Lupa.svg"/>        <!--  cambiar lupa-->
+                    <img class="H_img h_img"  src="./images/CarritoCompra.svg"/>
 
                 </div>
           
             </div>
 
          
+        </nav>
+        <section>
+        <img src="./images/PrincipalPortada.png" alt="" class="portada">
+        <input class="input" type="text">
+
         </section>
     </header>
     <!--CUERPO-->
@@ -52,22 +57,22 @@
         <section class="m_section">
             <h2 class=" m_title">PRINCIPALES DESTINOS</h2>
             <div class=" m_containerImg">
-                <div class="m_img"><img src="./images/Paris.png" alt="imagenParis">
+                <div class="m_img"><img class="m_imagen" src="./images/Paris.png" alt="imagenParis">
                     <h3 class="m_titleImg">PARIS</h3>
                 
                 </div>
 
 
-                <div class="m_img"><img src="./images/Venecia.png" alt="imagenVencia">
+                <div class="m_img"><img class="m_imagen" src="./images/Venecia.png" alt="imagenVencia">
                     <h3 class="m_titleImg">VENECIA</h3>
                 </div>
 
 
-                <div class="m_img"><img src="./images/marraketch.png" alt="imagenMarraketch">
+                <div class="m_img"><img class="m_imagen" src="./images/marraketch.png" alt="imagenMarraketch">
                     <h3 class="m_titleImg">MARRAKETCH</h3></div>
 
 
-                <div class="m_img"><img src="./images/Cairo.png" alt="imagenCairo">
+                <div class="m_img"><img class="m_imagen" src="./images/Cairo.png" alt="imagenCairo">
                     <h3 class="m_titleImg">EL CAIRO</h3></div>
             </div>
             <button class ="m_button">VER MAS</button>
@@ -76,20 +81,20 @@
 
             <h2 class=" m_title">TOURS</h2>
             <div class=" m_containerImg">
-                <div class="m_img"><img src="./images/RomaNocturna.png" alt="imagenRoma">
+                <div class="m_img"><img class="m_imagen" src="./images/RomaNocturna.png" alt="imagenRoma">
                     <h3 class="m_titleImg">ROMA NOCTURNA</h3></div>
 
 
 
-                <div class="m_img"><img src="./images/TourBerlin.png" alt="imagenBerlin">
+                <div class="m_img"><img class="m_imagen" src="./images/TourBerlin.png" alt="imagenBerlin">
                     <h3 class="m_titleImg"> BERLIN MURO</h3></div>
 
 
-                <div class="m_img"><img src="./images/AmsterdamRojo.png" alt="imagenAmsterdan">
+                <div class="m_img"><img class="m_imagen" src="./images/AmsterdamRojo.png" alt="imagenAmsterdan">
                     <h3 class="m_titleImg">AMSTERDAM BARRIO ROJO</h3></div>
 
 
-                <div class="m_img"><img src="./images/PalacioReal.png" alt="imagenPalacioReal">
+                <div class="m_img"><img class="m_imagen" src="./images/PalacioReal.png" alt="imagenPalacioReal">
                     <h3 class="m_titleImg">MADRID PALACIO REAL</h3></div>
             </div>
             <button class ="m_button">VER MAS</button>
@@ -98,19 +103,19 @@
 
             <h2 class=" m_title">ACTIVIDADES</h2>
             <div class=" m_containerImg">
-                <div class="m_img"><img src="./images/PaseoCamello.png" alt="imagenCammello">
+                <div class="m_img"><img class="m_imagen" src="./images/PaseoCamello.png" alt="imagenCammello">
                     <h3 class="m_titleImg">PASEO EN CAMELLO</h3></div>
 
 
-                <div class="m_img"><img src="./images/PaseoGondola.png" alt="imagenGondola">
+                <div class="m_img"><img class="m_imagen" src="./images/PaseoGondola.png" alt="imagenGondola">
                     <h3 class="m_titleImg">PASEO EN GONDOLA</h3></div>
 
 
-                <div class="m_img"><img src="./images/FerryTamesis.png" alt="imagenTamesis">
+                <div class="m_img"><img class="m_imagen" src="./images/FerryTamesis.png" alt="imagenTamesis">
                     <h3 class="m_titleImg">FERRY POR EL TAMESIS</h3></div>
 
 
-                <div class="m_img"><img src="./images/ForoRomano.png" alt="imagenForoRomano">
+                <div class="m_img"><img class="m_imagen" src="./images/ForoRomano.png" alt="imagenForoRomano">
                     <h3 class="m_titleImg">RUTA FORO ROMANO</h3></div>
             </div>
             <button class ="m_button">VER MAS</button>
@@ -119,28 +124,31 @@
 
     <!--PIE DE PÁGINA-->
 
+
+   
+
     <footer class="footer">
-        <div class="fflex3">
-            <div>
-                <p class="fp">Quiénes Somos</p>
-                <p class="fp">Sostenibilidad</p>
+            <div class="fflex3">
+                <div>
+                    <p class="fp">Quiénes Somos</p>
+                    <p class="fp">Sostenibilidad</p>
+                </div>
+                
+                <div>
+                    <p class="fp">info@traveltours.com</p>
+                    <p class="fp">+34666666666</p>
+                </div>
             </div>
-            
-            <div>
-                <p class="fp">info@traveltours.com</p>
-                <p class="fp">+34666666666</p>
+            <div class="fflex2">
+                    <div><a href=""><img class="fimg" src="images/InstagramLogo.svg" alt=""></a></div>
+                    <div><a href=""><img class="fimg" src="images/LinkedinLogo.svg" alt=""></a></div>
+                    <div><a href=""><img class="fimg" src="images/WhatsappLogo.svg" alt=""></a></div>
+                    <div><a href=""><img class="fimg" src="images/TwitterLogo.svg" alt=""></a></div>
+                    <div><a href=""><img class="fimg" src="images/GoogleLogo.svg" alt=""></a></div>
+                    <div><a href=""><img class="fimg" src="images/TiktokLogo.svg" alt=""></a></div>
             </div>
-        </div>
-        <div class="fflex2">
-                <div><a href=""><img class="fimg" src="images/InstagramLogo.svg" alt=""></a></div>
-                <div><a href=""><img class="fimg" src="images/LinkedinLogo.svg" alt=""></a></div>
-                <div><a href=""><img class="fimg" src="images/WhatsappLogo.svg" alt=""></a></div>
-                <div><a href=""><img class="fimg" src="images/TwitterLogo.svg" alt=""></a></div>
-                <div><a href=""><img class="fimg" src="images/GoogleLogo.svg" alt=""></a></div>
-                <div><a href=""><img class="fimg" src="images/TiktokLogo.svg" alt=""></a></div>
-        </div>
-        <p class="fwrap">Copyright © 2022 Alejandro Barba - Belén Cao - Maribel López</p>     
-    </footer>
+            <p class="fwrap">Copyright © 2022 Alejandro Barba - Belén Cao - Maribel López</p>     
+        </footer>
     <script type="text/JavaScript" src="main.js"></script>
 </body>
 
