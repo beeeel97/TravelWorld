@@ -31,8 +31,21 @@
 
             <span class = "openbtn"style="font-size:30px;cursor:pointer;color: #D0B7A0;;" >&#9776;</span>
 
-
+            <!-- PICTURE. PRACTICA -->
+            <picture>
+                <source  media="(min-width:1000px)"  srcset="./images/avion.png">
+                <source  media="(min-width:700px)"  srcset="./images/barco.png">
+                <img class ="img_picture" src="./images/avion.png" alt="avion">  <!--POR DEFECTO CUANDO NO SE CUMPLEN LAS CONDICIONES ANTERIORES -->
+              </picture>
             <div class="H_logo">
+
+            <!-- AUDIO -->
+
+            <audio controls autoplay>
+                <source src="horse.ogg" type="audio/ogg">
+                <source src="horse.mp3" type="audio/mpeg">
+              Tu navegador no soporta audios
+              </audio>
                 
                <p class= "h_p">TRAVELWORLD</p> 
                 <div class = "H_iconos">
@@ -61,6 +74,22 @@
     <!--CUERPO-->
 
     <main>
+
+        <!-- VIDEO -->
+
+        <section class = "videos">
+
+
+            <video width="400" controls loop>
+                <source src="mov_bbb.mp4" type="video/mp4">
+                <source src="mov_bbb.ogg" type="video/ogg">
+                Tu navegador no soporta videos
+              </video>
+    
+              <iframe width="400" src="https://www.youtube.com/embed/HWWlHXbi3fQ?rel=0&autoplay=1&mute=0&loop=1" frameborder="0" allowfullscreen title="YouTube video player" allow="autoplay"></iframe>
+        </section>
+
+      
 
         <section class="m_section">
             <h2 class=" m_title">PRINCIPALES DESTINOS</h2>
