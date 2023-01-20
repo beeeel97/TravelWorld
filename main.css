@@ -297,6 +297,13 @@ align-items: center;
     height: 38px;
     width: 100px;
     border: 0px;
+    transition: 1s linear;  /*Animacion rotatoria*/
+}
+
+/*ANIMACION ROTATORIA*/
+.m_button:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
 }
  
  
