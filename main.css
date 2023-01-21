@@ -297,10 +297,10 @@ align-items: center;
     height: 38px;
     width: 100px;
     border: 0px;
-    transition: 1s linear;  /*Animacion rotatoria*/
+    transition: 1s linear;  /*Transformacion rotatoria*/
 }
 
-/*ANIMACION ROTATORIA*/
+/*TRANNSFORMACION ROTATORIA*/
 .m_button:hover {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
@@ -310,6 +310,22 @@ align-items: center;
 .m_titleImg {
     visibility: hidden;
 }
+
+.cajaShadow{
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+    background-color: #F1C40F;
+  }
+  .cajaShadow:hover{
+    -webkit-box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+    box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+    font-size: 22px;
+  }
+
+
+
+
+
  
 @media only screen and (min-width: 728px) {
 
