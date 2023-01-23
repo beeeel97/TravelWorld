@@ -37,7 +37,25 @@
     margin-top: 30px;
 }
 
-
+.avionAnimiacion {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 8s;
+    
+  }
+  
+  @keyframes example {
+    0%   { left:0px; top:0px; }
+  
+    40%  {left:90%; top:0px;transform:rotate(0.001turn);}
+  
+  60%{ left:90%; top:0px; transform:rotate(0.5turn);}
+    100% { left:0px; top:0px; transform:rotate(0.5turn);}
+  
+  }
+  
 
 
 
